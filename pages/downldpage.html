@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Download Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .movie-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .movie {
+      width: 300px;
+      border: 1px solid #ddd;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .movie img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .movie-info {
+      padding: 15px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Movie Download Page</h1>
+    <p>Find your favorite movies and download them</p>
+  </header>
+
+  <main>
+    <div class="movie-container">
+      <div class="movie">
+        <img src="movie1.jpg" alt="Movie 1">
+        <div class="movie-info">
+          <h2>Leo</h2>
+          <p>Leo is a 2023 Indian Tamil-language action thriller film directed by Lokesh Kanagaraj and produced by Seven Screen Studio.</p>
+          <a href="">Download</a>
+        </div>
+      </div>
+
+      <!-- <div class="movie">
+        <img src="movie2.jpg" alt="Movie 2">
+        <div class="movie-info">
+          <h2>Movie Title 2</h2>
+          <p>Description of Movie 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" download>Download</a>
+        </div>
+      </div> -->
+
+      <!-- Add more movie entries as needed -->
+    </div>
+  </main>
+  <div class="home"><a href="/index.html">Home</a></div>
+
+  <footer>
+    <p>&copy; 2023 Movie Download Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
